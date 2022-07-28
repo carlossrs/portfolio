@@ -238,15 +238,15 @@ a:hover {
 }
 
 #calculator {
-  background-image: url("/assets/images/calculator.png");
+  background-image: url("../images/calculator.png");
 }
 
 #drum-machine {
-  background-image: url("/assets/images/drum-machine.png");
+  background-image: url("../images/drum-machine.png");
 }
 
 #quote-machine {
-  background-image: url("/assets/images/quote-machine.png");
+  background-image: url("../images/quote-machine.png");
 }
 
 .card-text {
