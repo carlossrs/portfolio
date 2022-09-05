@@ -310,7 +310,8 @@ a:hover {
   }
 
   .container .card-container:nth-child(1),
-  .container .card-container:nth-child(3) {
+  .container .card-container:nth-child(3),
+  .container .card-container:nth-child(5) {
     flex-direction: column-reverse;
   }
 
