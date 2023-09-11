@@ -31,6 +31,15 @@ h2 {
   text-transform: uppercase;
   letter-spacing: 4px;
   font-weight: 400;
+  text-align: center;
+}
+
+.tecnologias {
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-weight: 400;
+  max-width: 50%;
+  text-align: center;
 }
 
 .social-media {
@@ -270,6 +279,7 @@ a:hover {
   width: 40%;
   letter-spacing: 2px;
   color: whitesmoke;
+  text-align: center;
 }
 
 .card-wrapper {
@@ -308,6 +318,12 @@ a:hover {
   h1 {
     text-align: center;
   }
+
+  .tecnologias {
+    font-size: 0.8rem;
+    text-transform: lowercase;
+    max-width: 80%;
+  }
   .social-media {
     display: flex;
     flex-direction: column;
@@ -323,13 +339,15 @@ a:hover {
 
   .container .card-container:nth-child(1),
   .container .card-container:nth-child(3),
-  .container .card-container:nth-child(5) {
+  .container .card-container:nth-child(5),
+  .container .card-container:nth-child(7) {
     flex-direction: column-reverse;
   }
 
   .card {
     height: 250px;
     width: 250px;
+    margin-bottom: 55px;
   }
 
   .card-text {
